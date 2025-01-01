@@ -1,8 +1,11 @@
 import Link from "next/link";
 function GoToQuizButton() {
   return (
-    <Link href="pages/quiz/quiz.js">
-      <button className="text-center mt-2 inline-block text-white rounded bg-indigo-600 px-6 pb-2 pt-2.5 text-xs font-semibold uppercase leading-normal">Take the Quiz</button>
+    <Link href="#">
+      <button type="button"
+        className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+        let&apos;s start
+      </button>    
     </Link>
   );
 }
