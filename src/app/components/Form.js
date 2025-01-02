@@ -1,16 +1,13 @@
 import  GoToQuizButton from "./GoToQuizButton";
 function Form(){
     return (
-    
-          <div className="">
-           
-            <div className="flex min-h-full flex-1 mt-14 items-center flex-col justify-center px-6 py-12 lg:px-8 shadow-lg rounded-lg max-w-lg mx-auto">
+          <div className="pt-14">
+            <div className="bg-white flex min-h-full flex-1  items-center flex-col justify-center px-6 py-12 lg:px-8 shadow-lg rounded-lg max-w-lg mx-auto">
               <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                 <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
                   Flash Card Web Application  
                 </h2>
               </div>
-      
               <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
                 <form action="#" method="POST" className="space-y-6">
                   <div>
